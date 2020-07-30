@@ -2,6 +2,8 @@
 
 def main():
     print(count_words("A fox jumps over a ledge and falls flat"))
+    print(count_words("Three blind mice"))
+    print(count_words("Titans vs Marvel"))
 
 def count_words(phrase):
     words = phrase.split()
